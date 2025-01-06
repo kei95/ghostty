@@ -1,0 +1,16 @@
+font-size = 16 
+# theme = catppuccin-mocha
+# theme = GruvboxLight
+# theme = Everblush
+# theme = Oxocarbon
+theme = zenwritten_dark
+cursor-style = block
+mouse-hide-while-typing = true
+macos-titlebar-style = transparent
+
+window-padding-balance = true
+window-save-state = always
+window-colorspace = "display-p3"
+
+# Binding to delete all text
+keybind = cmd+backspace=esc:w
