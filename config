@@ -14,3 +14,5 @@ window-colorspace = "display-p3"
 
 # Binding to delete all text
 keybind = cmd+backspace=esc:w
+keybind = ctrl+f=write_scrollback_file:open
+
