@@ -16,7 +16,7 @@ window-colorspace = "display-p3"
 keybind = cmd+backspace=esc:w
 
 # Remove Japanese リガチャ
-font-feature = -dlig
-=======
+font-feature = "-dlig"
+
 keybind = ctrl+f=write_scrollback_file:open
 
