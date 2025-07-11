@@ -14,6 +14,3 @@ window-colorspace = "display-p3"
 
 # Binding to delete all text
 keybind = cmd+backspace=esc:w
-
-# Remove Japanese リガチャ
-font-feature = -dlig
