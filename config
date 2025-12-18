@@ -14,13 +14,11 @@ window-padding-balance = true
 window-save-state = always
 window-colorspace = "display-p3"
 
-# Binding to delete all text
-keybind = cmd+backspace=esc:w
-
 # Remove Japanese リガチャ
 font-feature = "-dlig"
 
-keybind = ctrl+f=write_scrollback_file:open
+keybind = ctrl+q=write_scrollback_file:open
+keybind = ctrl+shift+q=text:\x01nvim \r
 keybind = shift+enter=text:\x1b\r
 
 # =========================
@@ -60,3 +58,4 @@ keybind = ctrl+apostrophe=resize_split:up,10
 # New tab (like tmux C-w new-window)
 # =========================
 keybind = ctrl+w=new_tab
+
