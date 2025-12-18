@@ -22,3 +22,41 @@ font-feature = "-dlig"
 
 keybind = ctrl+f=write_scrollback_file:open
 keybind = shift+enter=text:\x1b\r
+
+# =========================
+# Pane navigation (vim-like)
+# =========================
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:up
+keybind = ctrl+l=goto_split:right
+
+# =========================
+# Pane splitting
+# (Using super/cmd since Ghostty has no prefix key)
+# =========================
+keybind = ctrl+shift+v=new_split:right
+keybind = ctrl+shift+h=new_split:down
+
+# =========================
+# Close pane
+# =========================
+keybind = ctrl+x=close_surface
+
+# =========================
+# Cycle through panes (replaces rotate)
+# =========================
+keybind = ctrl+space=goto_split:next
+
+# =========================
+# Resize panes
+# =========================
+keybind = ctrl+comma=resize_split:left,10
+keybind = ctrl+period=resize_split:right,10
+keybind = ctrl+semicolon=resize_split:down,10
+keybind = ctrl+apostrophe=resize_split:up,10
+
+# =========================
+# New tab (like tmux C-w new-window)
+# =========================
+keybind = ctrl+w=new_tab
