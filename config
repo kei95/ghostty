@@ -59,3 +59,7 @@ keybind = ctrl+apostrophe=resize_split:up,10
 # =========================
 keybind = ctrl+w=new_tab
 
+##### Open scrollback file with Neovim #####
+keybind = ctrl+q>o=write_scrollback_file:open
+keybind = ctrl+q>c=write_scrollback_file:copy
+keybind = ctrl+q>p=write_scrollback_file:paste
