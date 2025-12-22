@@ -63,3 +63,7 @@ keybind = ctrl+w=new_tab
 keybind = ctrl+q>o=write_scrollback_file:open
 keybind = ctrl+q>c=write_scrollback_file:copy
 keybind = ctrl+q>p=write_scrollback_file:paste
+
+##### Keybindings with Vim like stroke #####
+keybind = ctrl+shift+k=scroll_page_lines:-3
+keybind = ctrl+shift+j=scroll_page_lines:3
