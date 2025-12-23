@@ -1,8 +1,4 @@
-font-size = 16 
-# theme = catppuccin-mocha
-# theme = GruvboxLight
-# theme = Everblush
-# theme = Oxocarbon
+font-size = 18 
 theme = Tomorrow Night
 palette = 8=#626880
 
@@ -18,7 +14,6 @@ window-colorspace = "display-p3"
 font-feature = "-dlig"
 
 keybind = ctrl+q=write_scrollback_file:open
-keybind = ctrl+shift+q=text:\x01nvim \r
 keybind = shift+enter=text:\x1b\r
 
 # =========================
@@ -42,11 +37,6 @@ keybind = ctrl+shift+h=new_split:down
 keybind = ctrl+x=close_surface
 
 # =========================
-# Cycle through panes (replaces rotate)
-# =========================
-keybind = ctrl+space=goto_split:next
-
-# =========================
 # Resize panes
 # =========================
 keybind = ctrl+comma=resize_split:left,10
@@ -61,9 +51,10 @@ keybind = ctrl+w=new_tab
 
 ##### Open scrollback file with Neovim #####
 keybind = ctrl+q>o=write_scrollback_file:open
-keybind = ctrl+q>c=write_scrollback_file:copy
-keybind = ctrl+q>p=write_scrollback_file:paste
 
 ##### Keybindings with Vim like stroke #####
 keybind = ctrl+shift+k=scroll_page_lines:-3
 keybind = ctrl+shift+j=scroll_page_lines:3
+
+##### Delete word by word (not all adjacent characters) #####
+keybind = alt+backspace=text:\x1b\x7f
