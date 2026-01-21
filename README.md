@@ -2,6 +2,14 @@
 
 # Ghostty Configuration
 
+ ___            __     ________   ___  ___       ______    ______    _____  ___    _______  __     _______   
+|"  |          /""\   ("      "\ |"  \/"  |     /" _  "\  /    " \  (\"   \|"  \  /"     "||" \   /" _   "|  
+||  |         /    \   \___/   :) \   \  /     (: ( \___)// ____  \ |.\\   \    |(: ______)||  | (: ( \___)  
+|:  |        /' /\  \    /  ___/   \\  \/       \/ \    /  /    ) :)|: \.   \\  | \/    |  |:  |  \/ \       
+ \  |___    //  __'  \  //  \__    /   /        //  \ _(: (____/ // |.  \    \. | // ___)  |.  |  //  \ ___  
+( \_|:  \  /   /  \\  \(:   / "\  /   /        (:   _) \\        /  |    \    \ |(:  (     /\  |\(:   _(  _| 
+ \_______)(___/    \___)\_______)|___/          \_______)\"_____/    \___|\____\) \__/    (__\_|_)\_______)  
+
 Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator. Following the Ghostty team's "Zero Configuration Philosophy", this config contains only minimal customizations.
 
 It includes color theme and font size changes, as well as keybindings for input and pane (split frames within the terminal) management.
