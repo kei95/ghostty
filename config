@@ -22,11 +22,6 @@ keybind = alt+backspace=text:\x1b\x7f
 keybind = shift+backspace=text:\x1b\x7f
 
 # =========================
-# Delete all text
-# =========================
-keybind = shift+delete=text:\x05\x15
-
-# =========================
 # Pane navigation
 # =========================
 keybind = ctrl+h=goto_split:left

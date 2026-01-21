@@ -2,7 +2,9 @@
 
 # Ghostty Configuration
 
-Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator.
+Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator. Following the Ghostty team's "Zero Configuration Philosophy", this config contains only minimal customizations.
+
+It includes color theme and font size changes, as well as keybindings for input and pane (split frames within the terminal) management.
 
 ## Setup
 
@@ -33,7 +35,6 @@ ghostty +show-config
 |---------|--------|
 | `Shift+Enter` | Insert newline |
 | `Alt+Backspace` / `Shift+Backspace` | Delete word |
-| `Shift+Delete` | Delete all text |
 | `Ctrl+H/J/K/L` | Navigate panes (vim-style) |
 | `Ctrl+Shift+V` | Split pane right |
 | `Ctrl+Shift+H` | Split pane down |
