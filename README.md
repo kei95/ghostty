@@ -2,13 +2,15 @@
 
 # Ghostty Configuration
 
- ___            __     ________   ___  ___       ______    ______    _____  ___    _______  __     _______   
-|"  |          /""\   ("      "\ |"  \/"  |     /" _  "\  /    " \  (\"   \|"  \  /"     "||" \   /" _   "|  
-||  |         /    \   \___/   :) \   \  /     (: ( \___)// ____  \ |.\\   \    |(: ______)||  | (: ( \___)  
-|:  |        /' /\  \    /  ___/   \\  \/       \/ \    /  /    ) :)|: \.   \\  | \/    |  |:  |  \/ \       
- \  |___    //  __'  \  //  \__    /   /        //  \ _(: (____/ // |.  \    \. | // ___)  |.  |  //  \ ___  
-( \_|:  \  /   /  \\  \(:   / "\  /   /        (:   _) \\        /  |    \    \ |(:  (     /\  |\(:   _(  _| 
- \_______)(___/    \___)\_______)|___/          \_______)\"_____/    \___|\____\) \__/    (__\_|_)\_______)  
+```text
+ ___            __     ________   ___  ___       ______    ______    _____  ___    _______  __     _______
+|"  |          /""\   ("      "\ |"  \/"  |     /" _  "\  /    " \  (\"   \|"  \  /"     "||" \   /" _   "|
+||  |         /    \   \___/   :) \   \  /     (: ( \___)// ____  \ |.\\   \    |(: ______)||  | (: ( \___)
+|:  |        /' /\  \    /  ___/   \\  \/       \/ \    /  /    ) :)|: \.   \\  | \/    |  |:  |  \/ \
+ \  |___    //  __'  \  //  \__    /   /        //  \ _(: (____/ // |.  \    \. | // ___)  |.  |  //  \ ___
+( \_|:  \  /   /  \\  \(:   / "\  /   /        (:   _) \\        /  |    \    \ |(:  (     /\  |\(:   _(  _|
+ \_______)(___/    \___)\_______)|___/          \_______)\"_____/    \___|\____\) \__/    (__\_|_)\_______)
+```
 
 Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator. Following the Ghostty team's "Zero Configuration Philosophy", this config contains only minimal customizations.
 
@@ -31,6 +33,7 @@ ghostty +show-config
 ## Features
 
 ### Appearance
+
 - Font size: 18
 - Theme: Tomorrow Night
 - Cursor style: Block
@@ -39,14 +42,14 @@ ghostty +show-config
 
 ### Keybindings
 
-| Keybind | Action |
-|---------|--------|
-| `Shift+Enter` | Insert newline |
-| `Alt+Backspace` / `Shift+Backspace` | Delete word |
-| `Ctrl+H/J/K/L` | Navigate panes (vim-style) |
-| `Ctrl+Shift+V` | Split pane right |
-| `Ctrl+Shift+H` | Split pane down |
-| `Ctrl+X` | Close pane |
-| `Ctrl+,` / `Ctrl+.` | Resize pane left/right |
-| `Ctrl+;` / `Ctrl+'` | Resize pane down/up |
-| `Ctrl+Shift+K/J` | Scroll up/down  |
+| Keybind                             | Action                     |
+| ----------------------------------- | -------------------------- |
+| `Shift+Enter`                       | Insert newline             |
+| `Alt+Backspace` / `Shift+Backspace` | Delete word                |
+| `Ctrl+H/J/K/L`                      | Navigate panes (vim-style) |
+| `Ctrl+Shift+V`                      | Split pane right           |
+| `Ctrl+Shift+H`                      | Split pane down            |
+| `Ctrl+X`                            | Close pane                 |
+| `Ctrl+,` / `Ctrl+.`                 | Resize pane left/right     |
+| `Ctrl+;` / `Ctrl+'`                 | Resize pane down/up        |
+| `Ctrl+Shift+K/J`                    | Scroll up/down             |
