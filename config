@@ -1,24 +1,28 @@
+# =========================
+# Appearance 
+# =========================
 font-size = 18 
 theme = Tomorrow Night
 palette = 8=#626880
-
 cursor-style = block
 mouse-hide-while-typing = true
-mouse-hide-when-focused = true
-macos-titlebar-style = transparent
-
 window-padding-balance = true
 window-save-state = always
 window-colorspace = "display-p3"
 
-# Remove Japanese リガチャ
-font-feature = "-dlig"
-
-keybind = ctrl+q=write_scrollback_file:open
+# =========================
+# Breakline 
+# =========================
 keybind = shift+enter=text:\x1b\r
 
 # =========================
-# Pane navigation (vim-like)
+# Word by word deletion 
+# =========================
+keybind = alt+backspace=text:\x1b\x7f
+keybind = shift+backspace=text:\x1b\x7f
+
+# =========================
+# Pane navigation
 # =========================
 keybind = ctrl+h=goto_split:left
 keybind = ctrl+j=goto_split:down
@@ -27,7 +31,6 @@ keybind = ctrl+l=goto_split:right
 
 # =========================
 # Pane splitting
-# (Using super/cmd since Ghostty has no prefix key)
 # =========================
 keybind = ctrl+shift+v=new_split:right
 keybind = ctrl+shift+h=new_split:down
@@ -46,16 +49,8 @@ keybind = ctrl+semicolon=resize_split:down,10
 keybind = ctrl+apostrophe=resize_split:up,10
 
 # =========================
-# New tab (like tmux C-w new-window)
+# scroll up/down 
 # =========================
-keybind = ctrl+w=new_tab
-
-##### Open scrollback file with Neovim #####
-keybind = ctrl+q>o=write_scrollback_file:open
-
-##### Keybindings with Vim like stroke #####
 keybind = ctrl+shift+k=scroll_page_lines:-3
 keybind = ctrl+shift+j=scroll_page_lines:3
 
-##### Delete word by word (not all adjacent characters) #####
-keybind = alt+backspace=text:\x1b\x7f
