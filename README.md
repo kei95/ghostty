@@ -1,3 +1,5 @@
+## 日本語はこちら: [README.ja.md](README.ja.md)
+
 # Ghostty Configuration
 
 Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator.
