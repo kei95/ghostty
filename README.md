@@ -1,17 +1,17 @@
-### 日本語はこちら: [README.ja.md](README.ja.md)
-
-# Ghostty Configuration
-
 ```text
-___  ____       _                 _   _____              __ _       
-|  \/  (_)     (_)               | | /  __ \            / _(_)      
-| .  . |_ _ __  _ _ __ ___   __ _| | | /  \/ ___  _ __ | |_ _  __ _ 
+___  ____       _                 _   _____              __ _
+|  \/  (_)     (_)               | | /  __ \            / _(_)
+| .  . |_ _ __  _ _ __ ___   __ _| | | /  \/ ___  _ __ | |_ _  __ _
 | |\/| | | '_ \| | '_ ` _ \ / _` | | | |    / _ \| '_ \|  _| |/ _` |
 | |  | | | | | | | | | | | | (_| | | | \__/\ (_) | | | | | | | (_| |
 \_|  |_/_|_| |_|_|_| |_| |_|\__,_|_|  \____/\___/|_| |_|_| |_|\__, |
                                                                __/ |
-                                                              |___/ 
+                                                              |___/
 ```
+
+### 日本語はこちら: [README.ja.md](README.ja.md)
+
+# Ghostty Configuration
 
 Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator. Following the Ghostty team's "Zero Configuration Philosophy", this config contains only minimal customizations.
 
