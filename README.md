@@ -1,4 +1,4 @@
-## 日本語はこちら: [README.ja.md](README.ja.md)
+### 日本語はこちら: [README.ja.md](README.ja.md)
 
 # Ghostty Configuration
 
