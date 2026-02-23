@@ -9,13 +9,13 @@
                                                                              |___/
 ```
 
+**zshの設定ファイルも公開しています。Ghostty (ターミナルアプリ)のみではなく環境(シェルやプロンプト)もカスタマイズしたい方はGhosttyの設定を終えた後、こちらに沿ってzshの設定もしてみてください: https://github.com/kei95/zsh/blob/main/README.ja.md**
+
 # Ghostty 設定ファイル
 
 [Ghostty](https://ghostty.org/) ターミナルエミュレータの個人的設定です。Ghosttyチームの掲げる"Zero Configuration Philosophy (設定不要哲学)"に従い、必要最低限のカスタマイズのみを行った設定ファイルです。
 
 カラーテーマとフォントサイズの変更、及び入力とPane(ターミナル内の分割された枠)周りのキーバインドを追加しています。
-
-**zshの設定ファイルも公開していますので、Ghosttyのみでなくシェル付きの全部入りパッケージにご興味があればこちらもどうぞ: https://github.com/kei95/zsh/blob/main/README.ja.md**
 
 ## セットアップ
 

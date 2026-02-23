@@ -9,6 +9,8 @@
                                                                              |___/
 ```
 
+**I uploaded zsh config too. If you'd like full-package config for your terminal or simply interested in my zsh config, go have a look after completing Ghostty set up. https://github.com/kei95/zsh**
+
 ### 日本語はこちら: [README.ja.md](README.ja.md)
 
 # Ghostty Configuration
@@ -16,8 +18,6 @@
 Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator. Following the Ghostty team's "Zero Configuration Philosophy", this config contains only minimal customizations.
 
 It includes color theme and font size changes, as well as keybindings for input and pane (split frames within the terminal) management.
-
-**I uploaded zsh config too. If you'd like full-package config for your terminal or simply interested in my zsh config, go have a look. https://github.com/kei95/zsh**
 
 ## Setup
 
