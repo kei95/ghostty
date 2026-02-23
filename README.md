@@ -17,6 +17,8 @@ Personal configuration for [Ghostty](https://ghostty.org/) terminal emulator. Fo
 
 It includes color theme and font size changes, as well as keybindings for input and pane (split frames within the terminal) management.
 
+**I uploaded zsh config too. If you'd like full-package config for your terminal or simply interested in my zsh config, go have a look. https://github.com/kei95/zsh**
+
 ## Setup
 
 **[IMPORTANT]** on macOS, the default path is `~/Library/Application Support/com.mitchellh.ghostty/config`. To use `~/.config/ghostty/config` which is where this repository makes the config file instead, delete the default config:

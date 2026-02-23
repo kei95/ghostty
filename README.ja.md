@@ -15,6 +15,8 @@
 
 カラーテーマとフォントサイズの変更、及び入力とPane(ターミナル内の分割された枠)周りのキーバインドを追加しています。
 
+**zshの設定ファイルも公開していますので、Ghosttyのみでなくシェル付きの全部入りパッケージにご興味があればこちらもどうぞ: https://github.com/kei95/zsh/blob/main/README.ja.md**
+
 ## セットアップ
 
 **[IMPORTANT]** macOSの場合、デフォルトのパスは `~/Library/Application Support/com.mitchellh.ghostty/config` です。このレポジトリが生成するパスである`~/.config/ghostty/config` を使用するには、デフォルトの設定ファイルを削除してください：
