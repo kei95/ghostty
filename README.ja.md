@@ -19,13 +19,15 @@
 
 ## セットアップ
 
-**[IMPORTANT]** macOSの場合、デフォルトのパスは `~/Library/Application Support/com.mitchellh.ghostty/config` です。このレポジトリが生成するパスである`~/.config/ghostty/config` を使用するには、デフォルトの設定ファイルを削除してください：
+[Ghostty](https://ghostty.org/download)をインストールします。
+
+**[!!!IMPORTANT!!!]** macOSの場合、デフォルトのパスは `~/Library/Application Support/com.mitchellh.ghostty/config` です。このレポジトリが生成するパスである`~/.config/ghostty/config` を使用するには、デフォルトの設定ファイルを削除してください：
 
 ```bash
 rm ~/Library/Application\ Support/com.mitchellh.ghostty/config
 ```
 
-設定が正しく読み込まれているか確認するには：
+設定が正しく読み込まれているか確認するには以下のコマンドを実行し、このレポジトリーの設定が表示するかを確認します：
 
 ```bash
 ghostty +show-config

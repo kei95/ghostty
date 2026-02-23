@@ -21,7 +21,9 @@ It includes color theme and font size changes, as well as keybindings for input 
 
 ## Setup
 
-**[IMPORTANT]** on macOS, the default path is `~/Library/Application Support/com.mitchellh.ghostty/config`. To use `~/.config/ghostty/config` which is where this repository makes the config file instead, delete the default config:
+Install [Ghostty](https://ghostty.org/download) (Thank you captain obvious).
+
+**[!!!!IMPORTANT!!!!]** on macOS, the default path is `~/Library/Application Support/com.mitchellh.ghostty/config`. To use `~/.config/ghostty/config` which is where this repository makes the config file instead, delete the default config:
 
 ```bash
 rm ~/Library/Application\ Support/com.mitchellh.ghostty/config
