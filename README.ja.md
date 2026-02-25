@@ -9,6 +9,8 @@
                                                                              |___/
 ```
 
+[![動画タイトル](https://img.youtube.com/vi/qrKBLXqksTQ/0.jpg)](https://www.youtube.com/watch?v=qrKBLXqksTQ)
+
 **zshの設定ファイルも公開しています。Ghostty (ターミナルアプリ)のみではなく環境(シェルやプロンプト)もカスタマイズしたい方はGhosttyの設定を終えた後、こちらに沿ってzshの設定もしてみてください: https://github.com/kei95/zsh/blob/main/README.ja.md**
 
 # Ghostty 設定ファイル
@@ -19,7 +21,7 @@
 
 ## セットアップ
 
-[Ghostty](https://ghostty.org/download)をインストールします。
+1. [Ghostty](https://ghostty.org/download)をインストールします。
 
 **[!!!IMPORTANT!!!]** macOSの場合、デフォルトのパスは `~/Library/Application Support/com.mitchellh.ghostty/config` です。このレポジトリが生成するパスである`~/.config/ghostty/config` を使用するには、デフォルトの設定ファイルを削除してください：
 
@@ -27,7 +29,31 @@
 rm ~/Library/Application\ Support/com.mitchellh.ghostty/config
 ```
 
-設定が正しく読み込まれているか確認するには以下のコマンドを実行し、このレポジトリーの設定が表示するかを確認します：
+2. このレポジトリをcloneする 
+
+macOSの場合
+```bash
+git clone git@github.com:kei95/ghostty.git ~/.config/ghostty
+```
+
+Windowsの場合
+```bash
+git clone git@github.com:kei95/ghostty.git $env:LOCALAPPDATA\ghostty
+```
+
+3. (optional) gitを消す 
+
+macOSの場合
+```bash
+rm -rf ~/.config/ghostty/.git
+```
+
+Windowsの場合
+```bash
+Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
+```
+
+4. 設定が正しく読み込まれているか確認するには以下のコマンドを実行し、このレポジトリーの設定が表示するかを確認します：
 
 ```bash
 ghostty +show-config

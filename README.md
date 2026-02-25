@@ -9,6 +9,8 @@
                                                                              |___/
 ```
 
+[![Configの動画](https://img.youtube.com/vi/qrKBLXqksTQ/0.jpg)](https://www.youtube.com/watch?v=qrKBLXqksTQ)
+
 **I uploaded zsh config too. If you'd like full-package config for your terminal or simply interested in my zsh config, go have a look after completing Ghostty set up. https://github.com/kei95/zsh**
 
 ### 日本語はこちら: [README.ja.md](README.ja.md)
